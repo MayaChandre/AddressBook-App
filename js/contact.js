@@ -1,7 +1,7 @@
-/**UC4 Validating all fields by creating contact class */
 class Contact{
 
     /**validating first name 
+     * must start with capital letter and must have minimum three characters
      */
 
     get fullName() {
@@ -57,6 +57,9 @@ class Contact{
 
     get zip() {return this._zip;}
     set zip(zip) {this._zip = zip;}
+
+    get id() {return this._id;}
+    set id(id) {this._id = id;}
 
     //Methods
     toString() {
